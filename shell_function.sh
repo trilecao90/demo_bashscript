@@ -6,7 +6,7 @@ print1
 
 # void func(arg1, arg2, ..., argN)
 print2() {
-    echo $1
+    echo ${1}
 }
 print2 "Hello World"
 
