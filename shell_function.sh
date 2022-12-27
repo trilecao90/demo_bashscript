@@ -1,6 +1,6 @@
 # void func()
 print1() {
-    echo "Hello_World"
+    echo "Hello World"
 }
 print1
 
@@ -8,7 +8,7 @@ print1
 print2() {
     echo $1
 }
-print2 Hello_World
+print2 "Hello World"
 
 # type func(arg1, arg2, ..., argN)
 add() {
