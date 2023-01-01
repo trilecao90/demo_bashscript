@@ -1,3 +1,4 @@
+# condition evaluation
 test 3 -eq 3 && echo "Numbers are equal"
 [ 3 -eq 3 ] && echo "Numbers are equal"
 [[ 3 == 3 ]] && echo "Numbers are equal"
