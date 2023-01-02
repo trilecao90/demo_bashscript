@@ -62,10 +62,10 @@ echo ${var%%789} # print 0123456
 # ${parameter//pattern/string}
 # ${parameter/#pattern/string}
 # ${parameter/%pattern/string}
-echo ${var/012/"& "}
-echo ${var//012/"& "}
-echo ${var/#012/"& "}
-echo ${var/%789/"& "}
+echo ${var/012/"& "} # print & 3456789
+echo ${var//012/"& "} # print & 3456789
+echo ${var/#012/"& "} # print & 3456789
+echo ${var/%789/"& "} # print 0123456&
 
 # ${parameter^pattern}
 # ${parameter^^pattern}
